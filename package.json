@@ -1,0 +1,22 @@
+{
+  "name": "portifolio-usando-sass-site",
+  "version": "1.0.0",
+  "description": "Portifolio site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielvf64/portifolio-usando-sass-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielvf64/portifolio-usando-sass-site/issues"
+  },
+  "homepage": "https://github.com/gabrielvf64/portifolio-usando-sass-site#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
