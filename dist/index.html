@@ -13,7 +13,32 @@
 </head>
 
 <body>
-  <h1>Olá, mundo!</h1>
+  <!-- Cabeçalho -->
+  <header id="header-home">
+    <div class="container">
+      <nav id="main-nav">
+        <img src="img/logo.png" alt="Logo" id="logo">
+        <ul>
+          <li><a href="index.html" class="atual">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="trabalhos.html">Trabalhos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <h1>Especialista em
+          <span class="txt-type" data-wait="3000" data-words='["Java", "Javascript", "SQL"]'></span>
+        </h1>
+        <p class="lead">
+          Utilizo os frameworks Spring e React
+        </p>
+        <a href="trabalhos.html" class="btn-light">Veja meus projetos</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Efeito no javascrtip. Brad tem um tutorial no youtube -->
+  <script src="js/typewriter.js"></script>
 </body>
 
 </html>
