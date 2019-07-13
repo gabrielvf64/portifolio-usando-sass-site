@@ -2,7 +2,6 @@
 @import "utilities";
 
 // Estilos gerais
-
 * {
   margin: 0;
   padding: 0;
@@ -93,6 +92,10 @@ img {
   }
 
   &-inner {
+    // entender. muito importante
+    background: $bg-image no-repeat 20% 30% / cover;
+    height: 5.5rem;
+    border-bottom: 3px solid $main-color;
   }
 }
 
