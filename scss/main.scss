@@ -240,6 +240,25 @@ img {
       margin: 1rem;
     }
   }
+
+  &-b {
+    .progress {
+      overflow: hidden;
+      height: 20px;
+      background: $medium-color;
+      border-radius: 5px;
+      margin-bottom: 0.6rem;
+
+      div {
+        // preenche a barra toda VERTICALMENTE
+        height: 100%;
+        background: $main-color;
+        // caso bote algum texto dentro depois
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
 }
 
 // Footer
